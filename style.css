@@ -22,3 +22,23 @@ a:link, a:visited {
     top: 5px;
     right: 10px;
 }
+
+#about {
+    display: none;
+}
+
+#about:target {
+    display: block;
+}
+
+body:has(#about:target) span:has(a[href="#about"]) {
+    display: none;
+}
+
+span a[href="#home"] {
+    display: none;
+}
+
+body:has(#about:target) span a[href="#home"] {
+    display: inline;
+}
