@@ -16,7 +16,8 @@ a:link, a:visited {
 }
 
 .topbar #version {
-    font-weight: 300;
+    font-weight: 500;
+    font-style: italic;
     position: absolute;
     padding: 0;
     top: 5px;
@@ -41,4 +42,9 @@ span a[href="#home"] {
 
 body:has(#about:target) span a[href="#home"] {
     display: inline;
+}
+
+div.pages {
+    margin-top: 20px;
+    margin-left: 20px;
 }
