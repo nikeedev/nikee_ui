@@ -22,3 +22,35 @@ a:link, a:visited {
 
 /* All the code */
 
+div.notification {
+    margin-top: 20px; 
+
+    border: 1.5px solid black;    
+    border-radius: 17px;
+
+    padding: 10px;
+
+    width: fit-contenti;
+}
+
+span#notification-title {
+    font-size: 14.5px;
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+}
+
+span#notification-icon {
+    float: left;
+    padding-right: 10px;
+
+    font-size: 16px;
+}
+
+span#notification-desc { 
+    font-size: 13px;   
+}
+
+div#notification span {
+
+}
