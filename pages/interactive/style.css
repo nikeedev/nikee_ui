@@ -1,0 +1,41 @@
+* {
+    font-family: 'Cascadia Code', monospace;
+}
+
+html {
+    background-color: #f3f3f3;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+.topbar * {
+    padding: 10px;
+    font-weight: 450;
+}
+
+.topbar #name {
+    font-weight: 500;
+    font-style: italic;
+    position: absolute;
+    padding: 0;
+    top: 5px;
+    right: 10px;
+}
+
+/* All the code */
+
+div.select {
+    margin-top: 20px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.option {
+    background-color: #f3f3f3;
+}
+
+.option:hover {
+    background-color: #b1b1b1;
+}
