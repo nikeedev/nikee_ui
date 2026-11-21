@@ -3,8 +3,6 @@
     <head>
         <title>interactive - nikee_ui</title>
             
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="style.css">
@@ -20,11 +18,15 @@
         <div class="bottom">
             
             <div class="select">
-               <span class="option load"><p>Load game</p></span> 
-               <span class="option new"><p>New game</p></span>
-               <span class="option info"><p>Info</p></span> 
+               <span class="option" id="load"><p>Load game</p></span> 
+               <span class="option" id="new"><p>New game</p></span>
+               <span class="option" id="info"><p>Info</p></span> 
             </div>
-
+            
+            <div id="info_box" style="display:none;">
+                <p>version: <b>v1.4.0</b>-alpha</p>
+                <p></p>
+            </div>
         </div>
 
         <script type="module" src="script.js"></script>
